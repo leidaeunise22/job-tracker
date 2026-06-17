@@ -7,7 +7,7 @@ import './styles/index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/job-tracker">
+    <BrowserRouter>
       <AuthProvider>
         <App />
       </AuthProvider>
